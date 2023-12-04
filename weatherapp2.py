@@ -1,7 +1,9 @@
-#import streamlit as st
+import streamlit as st
 
 #put in OpenWeather API: 
 #documentation: https://openweathermap.org/current
+
+import requests
 
 import openmeteo_requests
 
