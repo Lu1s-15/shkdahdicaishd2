@@ -7,11 +7,13 @@ import csv
 
 API_KEY = 'J2SPFQATVW74M4R2LK9ESDA9W'  # Your API key
 
+user_input = st.text_input('Enter your current location (city)', '')
+
 def get_weather_forecast(city):
     url = f"https://visual-crossing-weather.p.rapidapi.com/forecast"
     querystring = {
         "aggregateHours": "24",
-        "location": city,
+        "location": user_input,
         "contentType": "csv",
         "unitGroup": "us",
         "shortColumnNames": "false"
