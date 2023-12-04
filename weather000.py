@@ -5,7 +5,7 @@ import tkinter as tk
 from io import StringIO
 import csv
 
-API_KEY = '2c1ef6189dmsh0162d7166efaca0p10973cjsn4f2d2dc52aa9'  # Your API key
+API_KEY = 'J2SPFQATVW74M4R2LK9ESDA9W'  # Your API key
 
 def get_weather_forecast(city):
     url = f"https://visual-crossing-weather.p.rapidapi.com/forecast"
